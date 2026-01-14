@@ -42,6 +42,6 @@ Proteção contra SQL Injection (Prepared Statements)
 
 Sanitização de dados na View (htmlspecialchars)
 
-Fluxo centralizado de ações (criar e excluir)
+Fluxo centralizado de ações (criar,editar e excluir)
 
 O objetivo do projeto foi simular um cenário real de mercado, indo além de apenas “fazer funcionar”, focando em organização, legibilidade e manutenção do código.
