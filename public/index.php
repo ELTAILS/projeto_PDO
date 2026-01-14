@@ -10,7 +10,7 @@
 </head>
 <body class="container"> 
     <div class="alert alert-danger" role="alert" style="margin-top: 2rem;">
-        <small>Atenção, não coloque email reais, esse projeto é apenas uma demostração de CRUD com banco de dados utilizando o PHP!</small> 
+        <small>Atenção, não coloque email reais, esse projeto é apenas uma demostração de PDO com banco de dados!</small> 
     </div> 
     <h1 class="h1">Cadastro de usuario</h1> 
 
@@ -26,6 +26,15 @@
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Telefone</label>
             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="12345-6789" name="telefone" require>
+        </div>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+                <label for="inputPassword6" class="col-form-label">Editar pelo id</label>
+            </div>
+            <div class="col-auto">
+                <input type="number" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" name="editar" min="1">
+                <small>Esse bloco é para editar um cadastro pelo id, ignore ele se for criar um cadastro</small>
+            </div>
         </div>
         <button type="submit" class="btn btn-primary">Cadastrar</button> 
     </form>

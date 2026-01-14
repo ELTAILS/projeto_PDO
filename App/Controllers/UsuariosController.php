@@ -40,7 +40,6 @@ class UsuariosController {
             $erro = $e->getMessage();
             $usuarios = $this->service->listar();
             $this->tabela = true;
-            require __DIR__ . '/../Views/TabelaUsuarios.php';
         }
     }
 

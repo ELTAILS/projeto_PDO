@@ -37,13 +37,10 @@ class ServiceUsuario {
         $email = filter_var($dados['email'], FILTER_VALIDATE_EMAIL);
         $telefone = preg_replace('/\D/', '', $dados['telefone']);
 
-        if($nome === '' || !$email || strlen($telefone) !== 11){
+        if($nome === '' || !$email || strlen($telefone) !== 9){
             throw new InvalidArgumentException("Preencha todos os dados corretamente!");
         }
 
-        if($this->repository->buscarEmail($email)){
-            throw new InvalidArgumentException("Esse email já está cadatrado!");
-        }
         $this->repository->atualizarUsuario($id,$nome,$email,$telefone);
     }
 }
