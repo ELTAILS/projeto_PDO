@@ -7,7 +7,7 @@
         <tr>
             <th scope="col"><i class="fa-solid fa-id-badge"></i>ID</th>
             <th scope="col"><i class="fa-solid fa-user"></i>Nome</th>
-            <th scope="col"><i class="fa-solid fa-at"></i>Emial</th>
+            <th scope="col"><i class="fa-solid fa-at"></i>Email</th>
             <th scope="col"><i class="fa-solid fa-mobile"></i>Telefone</th>
             <th scope="col"><i class="fa-solid fa-trash"></i></th>
         </tr>
