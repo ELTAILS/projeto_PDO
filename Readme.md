@@ -1,3 +1,5 @@
+<strong><h1>Ateção! caso abaixe o projeto crie um banco chamado pdo_estudos e importe a tabela usuarios.sql</h1></strong>
+
 Projeto prático em PHP com PDO e arquitetura MVC
 
 Finalizei um projeto prático com foco em boas práticas de mercado, aplicando na prática conceitos fundamentais do desenvolvimento backend com PHP.
